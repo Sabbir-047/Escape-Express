@@ -113,6 +113,7 @@ main section{
 
 .banner-info p {
     margin: 1.5rem 0 3rem 0rem;
+    color: white;
 }
 
 .banner-form {
@@ -151,6 +152,35 @@ main section{
     width: fit-content;
 }
 
+
+
+
+/* destination section */
+/* .destination-collage{
+    
+} */
+.destination-collage img{
+    width: 100%;
+    height: 18.75rem;
+
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 4fr 6fr 3fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 1.5rem;
+}
 
 
 
@@ -206,6 +236,11 @@ main section{
     .col2 > img{
         width: 100%;
     }
+    .row1, .row2, .row3{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 /* medium devices */
@@ -242,6 +277,11 @@ main section{
     }
     .col2 > img{
         width: 100%;
+    }
+    .row1, .row2, .row3{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
