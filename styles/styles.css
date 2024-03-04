@@ -281,6 +281,32 @@ li {
 }
 
 
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 6.875rem 0rem;
+    text-align: center;
+}
+.footer-container p{
+    padding: 1rem 0rem;
+}
+.icons{
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
 
 
 
@@ -366,6 +392,9 @@ li {
     
     .news-title{
         font-size: 1rem;
+    }
+    .footer-container {
+        margin: 0 1rem;
     }
 }
 
