@@ -209,6 +209,77 @@ li {
 }
 
 
+/* newsletter */
+#Newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+#form-container {
+    border: 2px solid #FF5400;
+    border-radius: .8rem;
+    padding: 2.5rem;
+}
+
+.newsletter-pic{
+    position: relative;
+}
+
+.newsletter-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-info h2 {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+}
+
+.form-info p {
+    padding: 1rem 0;
+}
+
+.form-options {
+    margin-top: 1.5rem;
+}
+
+.form-options input {
+    border: 0;
+    padding: 1rem 1.125rem;
+    margin-bottom: 1rem;
+    color: rgba(19, 19, 24, 0.3);
+    border-radius: .5rem;
+    background: rgba(19, 19, 24, 0.05);
+    display: block;
+    width: 91%;
+}
+
+.news-discount {
+    border-radius: 1rem;
+    background: rgb(255, 84, 0);
+    color: white;
+    width: 30%;
+    padding: 2.1rem 2.8rem;
+    text-align: center;
+    position: absolute;
+    bottom: 12%;
+    left: 52.5%;
+    transform:rotate(-30deg);
+}
+
+.news-text{
+    font-size: 1.5rem;
+}
+
+.news-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 
 
 
@@ -276,6 +347,26 @@ li {
         gap: 1rem;
         margin-bottom: 1rem;
     }
+
+    /* newsletter */
+    #Newsletter {
+        flex-direction: column;
+    }
+
+    .form-options input {
+        width: 88%;
+    }
+    .news-discount {
+        bottom: 16%;
+        left: 33%;
+    }
+    .news-text{
+        font-size: .8rem;
+    }
+    
+    .news-title{
+        font-size: 1rem;
+    }
 }
 
 /* medium devices */
@@ -328,6 +419,24 @@ li {
         gap: 1rem;
         margin-bottom: 1rem;
     }
+
+    #Newsletter {
+        flex-direction: column;
+    }
+
+    .form-options input {
+        width: 94%;
+    }
+    .news-discount {
+        bottom: 14%;
+    }
+    .news-text{
+        font-size: .8rem;
+    }
+    
+    .news-title{
+        font-size: 1rem;
+    }
 }
 
 /* large devices */
@@ -349,5 +458,19 @@ li {
 
     .col2>img {
         width: 100%;
+    }
+
+    .form-options input {
+        width: 90%;
+    }
+    .news-discount{
+        left: 49%;
+    }
+    .news-text{
+        font-size: 1rem;
+    }
+    
+    .news-title{
+        font-size: 1.5rem;
     }
 }
